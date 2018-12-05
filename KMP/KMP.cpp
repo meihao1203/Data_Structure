@@ -3,6 +3,7 @@
 using namespace std;
 void makeNextArr(const char* tStr,int* next);
 //KMP算法中，next数组中next[i]的值的含义就是:匹配串中0~i中的最大前后缀长度
+//学习博客：http://www.cnblogs.com/meihao1203/
 //学习博客：https://blog.csdn.net/ebowtang/article/details/49129363
 void KMP(const char* sStr,const char* tStr);
 void testNext(const char* tStr,int* next,int nextLen);

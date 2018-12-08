@@ -3,7 +3,6 @@
 #include<string>
 #include<sstream>
 using namespace std;
-#if 0
 typedef struct BinaryTreeNode  //二叉树结点数据结构
 {
 	char data;  
@@ -77,7 +76,6 @@ void postorderTraversal(const pBTNode& root)
 	postorderTraversal(root->rchild);  //后序遍历右子树
 	cout<<root->data<<" ";  //后序遍历输出根结点数据
 }
-#endif
 //AB##C##
 //preorder traversal:
 //A B C
